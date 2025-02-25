@@ -80,6 +80,9 @@ void main(void)
     XF_post(lightControl_Process,E_INIT,0);
     while (1)
     {
+        if(true){
+            uint8_t a = 2;
+        }
         updateCarState();   // high priority CAN read function
         XF_executeOnce();        
     }
