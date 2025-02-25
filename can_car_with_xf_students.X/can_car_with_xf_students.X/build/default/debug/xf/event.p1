@@ -1,0 +1,162 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[v F42 `(a ~T0 @X0 0 tf1`*S2 ]
+"12 xf/event.h
+[; ;xf/event.h: 12: {
+[s S2 `uc 1 `*F42 1 `us 1 ]
+[n S2 Event_ id processEvent delay ]
+[v F91 `(a ~T0 @X0 0 tf1`*S2 ]
+[v F96 `(a ~T0 @X0 0 tf1`*S2 ]
+[v F100 `(a ~T0 @X0 0 tf1`*S2 ]
+[v F107 `(a ~T0 @X0 0 tf1`*S2 ]
+"4 xf/event.c
+[; ;xf/event.c: 4: void Event_init(struct Event_* me)
+[v _Event_init `(v ~T0 @X0 1 ef1`*S2 ]
+"5
+[; ;xf/event.c: 5: {
+{
+[e :U _Event_init ]
+"4
+[; ;xf/event.c: 4: void Event_init(struct Event_* me)
+[v _me `*S2 ~T0 @X0 1 r1 ]
+"5
+[; ;xf/event.c: 5: {
+[f ]
+"6
+[; ;xf/event.c: 6:     me->id = 0;
+[e = . *U _me 0 -> -> 0 `i `uc ]
+"7
+[; ;xf/event.c: 7:     me->delay = 0;
+[e = . *U _me 2 -> -> 0 `i `us ]
+"8
+[; ;xf/event.c: 8:     me->processEvent = ((void*)(0));
+[e = . *U _me 1 -> -> -> 0 `i `*v `*F91 ]
+"9
+[; ;xf/event.c: 9: }
+[e :UE 4 ]
+}
+"12
+[; ;xf/event.c: 12: void Event_setPE(Event* me, processEventT processEvent)
+[v _Event_setPE `(v ~T0 @X0 1 ef2`*S2`*F96 ]
+"13
+[; ;xf/event.c: 13: {
+{
+[e :U _Event_setPE ]
+"12
+[; ;xf/event.c: 12: void Event_setPE(Event* me, processEventT processEvent)
+[v _me `*S2 ~T0 @X0 1 r1 ]
+[v _processEvent `*F100 ~T0 @X0 1 r2 ]
+"13
+[; ;xf/event.c: 13: {
+[f ]
+"14
+[; ;xf/event.c: 14:     me->processEvent = processEvent;
+[e = . *U _me 1 _processEvent ]
+"15
+[; ;xf/event.c: 15: }
+[e :UE 5 ]
+}
+"17
+[; ;xf/event.c: 17: processEventT Event_getPE(Event* me)
+[v _Event_getPE `(*F107 ~T0 @X0 1 ef1`*S2 ]
+"18
+[; ;xf/event.c: 18: {
+{
+[e :U _Event_getPE ]
+"17
+[; ;xf/event.c: 17: processEventT Event_getPE(Event* me)
+[v _me `*S2 ~T0 @X0 1 r1 ]
+"18
+[; ;xf/event.c: 18: {
+[f ]
+"19
+[; ;xf/event.c: 19:     return me->processEvent;
+[e ) . *U _me 1 ]
+[e $UE 6  ]
+"20
+[; ;xf/event.c: 20: }
+[e :UE 6 ]
+}
+"22
+[; ;xf/event.c: 22: void Event_setId(Event* me, evIDT eventID)
+[v _Event_setId `(v ~T0 @X0 1 ef2`*S2`uc ]
+"23
+[; ;xf/event.c: 23: {
+{
+[e :U _Event_setId ]
+"22
+[; ;xf/event.c: 22: void Event_setId(Event* me, evIDT eventID)
+[v _me `*S2 ~T0 @X0 1 r1 ]
+[v _eventID `uc ~T0 @X0 1 r2 ]
+"23
+[; ;xf/event.c: 23: {
+[f ]
+"24
+[; ;xf/event.c: 24:     me->id = eventID;
+[e = . *U _me 0 _eventID ]
+"25
+[; ;xf/event.c: 25: }
+[e :UE 7 ]
+}
+"27
+[; ;xf/event.c: 27: evIDT Event_getId(Event* me)
+[v _Event_getId `(uc ~T0 @X0 1 ef1`*S2 ]
+"28
+[; ;xf/event.c: 28: {
+{
+[e :U _Event_getId ]
+"27
+[; ;xf/event.c: 27: evIDT Event_getId(Event* me)
+[v _me `*S2 ~T0 @X0 1 r1 ]
+"28
+[; ;xf/event.c: 28: {
+[f ]
+"29
+[; ;xf/event.c: 29:     return me->id;
+[e ) . *U _me 0 ]
+[e $UE 8  ]
+"30
+[; ;xf/event.c: 30: }
+[e :UE 8 ]
+}
+"32
+[; ;xf/event.c: 32: void Event_setDelay(Event* me, uint16_t delay)
+[v _Event_setDelay `(v ~T0 @X0 1 ef2`*S2`us ]
+"33
+[; ;xf/event.c: 33: {
+{
+[e :U _Event_setDelay ]
+"32
+[; ;xf/event.c: 32: void Event_setDelay(Event* me, uint16_t delay)
+[v _me `*S2 ~T0 @X0 1 r1 ]
+[v _delay `us ~T0 @X0 1 r2 ]
+"33
+[; ;xf/event.c: 33: {
+[f ]
+"34
+[; ;xf/event.c: 34:     me->delay = delay;
+[e = . *U _me 2 _delay ]
+"35
+[; ;xf/event.c: 35: }
+[e :UE 9 ]
+}
+"37
+[; ;xf/event.c: 37: uint16_t Event_getDelay(Event* me)
+[v _Event_getDelay `(us ~T0 @X0 1 ef1`*S2 ]
+"38
+[; ;xf/event.c: 38: {
+{
+[e :U _Event_getDelay ]
+"37
+[; ;xf/event.c: 37: uint16_t Event_getDelay(Event* me)
+[v _me `*S2 ~T0 @X0 1 r1 ]
+"38
+[; ;xf/event.c: 38: {
+[f ]
+"39
+[; ;xf/event.c: 39:     return me->delay;
+[e ) . *U _me 2 ]
+[e $UE 10  ]
+"40
+[; ;xf/event.c: 40: }
+[e :UE 10 ]
+}

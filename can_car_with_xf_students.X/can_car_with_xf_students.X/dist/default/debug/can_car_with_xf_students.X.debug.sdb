@@ -1,0 +1,1431 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F97J60 ]
+[d frameptr 4065 ]
+"336 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\can/can.h
+[e E5287 . `uc
+CAN_FIFO_CH0 0
+CAN_FIFO_CH1 1
+CAN_FIFO_CH2 2
+CAN_FIFO_CH3 3
+CAN_FIFO_CH4 4
+CAN_FIFO_CH5 5
+CAN_FIFO_CH6 6
+CAN_FIFO_CH7 7
+CAN_FIFO_CH8 8
+CAN_FIFO_CH9 9
+CAN_FIFO_CH10 10
+CAN_FIFO_CH11 11
+CAN_FIFO_CH12 12
+CAN_FIFO_CH13 13
+CAN_FIFO_CH14 14
+CAN_FIFO_CH15 15
+CAN_FIFO_CH16 16
+CAN_FIFO_CH17 17
+CAN_FIFO_CH18 18
+CAN_FIFO_CH19 19
+CAN_FIFO_CH20 20
+CAN_FIFO_CH21 21
+CAN_FIFO_CH22 22
+CAN_FIFO_CH23 23
+CAN_FIFO_CH24 24
+CAN_FIFO_CH25 25
+CAN_FIFO_CH26 26
+CAN_FIFO_CH27 27
+CAN_FIFO_CH28 28
+CAN_FIFO_CH29 29
+CAN_FIFO_CH30 30
+CAN_FIFO_CH31 31
+CAN_FIFO_TOTAL_CHANNELS 32
+]
+"385
+[e E5543 . `ui
+CAN_TX_FIFO_FULL 0
+CAN_TX_FIFO_STATUS_MASK 503
+CAN_TX_FIFO_NOT_FULL 1
+CAN_TX_FIFO_HALF_FULL 2
+CAN_TX_FIFO_EMPTY 4
+CAN_TX_FIFO_ATTEMPTS_EXHAUSTED 16
+CAN_TX_FIFO_ERROR 32
+CAN_TX_FIFO_ARBITRATION_LOST 64
+CAN_TX_FIFO_ABORTED 128
+CAN_TX_FIFO_TRANSMITTING 256
+]
+"666
+[e E5580 . `uc
+CAN_TX_FIFO_NO_EVENT 0
+CAN_TX_FIFO_ALL_EVENTS 23
+CAN_TX_FIFO_NOT_FULL_EVENT 1
+CAN_TX_FIFO_HALF_FULL_EVENT 2
+CAN_TX_FIFO_EMPTY_EVENT 4
+CAN_TX_FIFO_ATTEMPTS_EXHAUSTED_EVENT 16
+]
+"156 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\can/can.c
+[e E5604 . `uc
+CAN_500K_1M 0
+CAN_500K_2M 1
+CAN_500K_3M 2
+CAN_500K_4M 3
+CAN_500K_5M 4
+CAN_500K_6M7 5
+CAN_500K_8M 6
+CAN_500K_10M 7
+CAN_250K_500K 8
+CAN_250K_833K 9
+CAN_250K_1M 10
+CAN_250K_1M5 11
+CAN_250K_2M 12
+CAN_250K_3M 13
+CAN_250K_4M 14
+CAN_1000K_4M 15
+CAN_1000K_8M 16
+CAN_125K_500K 17
+]
+"184
+[e E5410 . `uc
+CAN_PLSIZE_8 0
+CAN_PLSIZE_12 1
+CAN_PLSIZE_16 2
+CAN_PLSIZE_20 3
+CAN_PLSIZE_24 4
+CAN_PLSIZE_32 5
+CAN_PLSIZE_48 6
+CAN_PLSIZE_64 7
+]
+"206
+[e E5357 . `uc
+CAN_NORMAL_MODE 0
+CAN_SLEEP_MODE 1
+CAN_INTERNAL_LOOPBACK_MODE 2
+CAN_LISTEN_ONLY_MODE 3
+CAN_CONFIGURATION_MODE 4
+CAN_EXTERNAL_LOOPBACK_MODE 5
+CAN_CLASSIC_MODE 6
+CAN_RESTRICTED_MODE 7
+CAN_INVALID_MODE 255
+]
+"223
+[e E5322 . `uc
+CAN_FILTER0 0
+CAN_FILTER1 1
+CAN_FILTER2 2
+CAN_FILTER3 3
+CAN_FILTER4 4
+CAN_FILTER5 5
+CAN_FILTER6 6
+CAN_FILTER7 7
+CAN_FILTER8 8
+CAN_FILTER9 9
+CAN_FILTER10 10
+CAN_FILTER11 11
+CAN_FILTER12 12
+CAN_FILTER13 13
+CAN_FILTER14 14
+CAN_FILTER15 15
+CAN_FILTER16 16
+CAN_FILTER17 17
+CAN_FILTER18 18
+CAN_FILTER19 19
+CAN_FILTER20 20
+CAN_FILTER21 21
+CAN_FILTER22 22
+CAN_FILTER23 23
+CAN_FILTER24 24
+CAN_FILTER25 25
+CAN_FILTER26 26
+CAN_FILTER27 27
+CAN_FILTER28 28
+CAN_FILTER29 29
+CAN_FILTER30 30
+CAN_FILTER31 31
+CAN_FILTER_TOTAL 32
+]
+"236
+[e E5588 . `uc
+CAN_RX_FIFO_NO_EVENT 0
+CAN_RX_FIFO_ALL_EVENTS 15
+CAN_RX_FIFO_NOT_EMPTY_EVENT 1
+CAN_RX_FIFO_HALF_FULL_EVENT 2
+CAN_RX_FIFO_FULL_EVENT 4
+CAN_RX_FIFO_OVERFLOW_EVENT 8
+]
+"257
+[e E5247 . `uc
+SPI2_DEFAULT 0
+]
+"725
+[e E5461 . `uc
+CAN_DLC_0 0
+CAN_DLC_1 1
+CAN_DLC_2 2
+CAN_DLC_3 3
+CAN_DLC_4 4
+CAN_DLC_5 5
+CAN_DLC_6 6
+CAN_DLC_7 7
+CAN_DLC_8 8
+CAN_DLC_12 9
+CAN_DLC_16 10
+CAN_DLC_20 11
+CAN_DLC_24 12
+CAN_DLC_32 13
+CAN_DLC_48 14
+CAN_DLC_64 15
+]
+"897
+[e E5732 . `ui
+CAN_TXREQ_CH0 1
+CAN_TXREQ_CH1 2
+CAN_TXREQ_CH2 4
+CAN_TXREQ_CH3 8
+CAN_TXREQ_CH4 16
+CAN_TXREQ_CH5 32
+CAN_TXREQ_CH6 64
+CAN_TXREQ_CH7 128
+CAN_TXREQ_CH8 256
+CAN_TXREQ_CH9 512
+CAN_TXREQ_CH10 1024
+CAN_TXREQ_CH11 2048
+CAN_TXREQ_CH12 4096
+CAN_TXREQ_CH13 8192
+CAN_TXREQ_CH14 16384
+CAN_TXREQ_CH15 -32768
+]
+"963
+[e E5368 . `uc
+CAN_TXBWS_NO_DELAY 0
+CAN_TXBWS_2 1
+CAN_TXBWS_4 2
+CAN_TXBWS_8 3
+CAN_TXBWS_16 4
+CAN_TXBWS_32 5
+CAN_TXBWS_64 6
+CAN_TXBWS_128 7
+CAN_TXBWS_256 8
+CAN_TXBWS_512 9
+CAN_TXBWS_1024 10
+CAN_TXBWS_2048 11
+CAN_TXBWS_4096 12
+]
+"1139
+[e E5389 . `uc
+CAN_DNET_FILTER_DISABLE 0
+CAN_DNET_FILTER_SIZE_1_BIT 1
+CAN_DNET_FILTER_SIZE_2_BIT 2
+CAN_DNET_FILTER_SIZE_3_BIT 3
+CAN_DNET_FILTER_SIZE_4_BIT 4
+CAN_DNET_FILTER_SIZE_5_BIT 5
+CAN_DNET_FILTER_SIZE_6_BIT 6
+CAN_DNET_FILTER_SIZE_7_BIT 7
+CAN_DNET_FILTER_SIZE_8_BIT 8
+CAN_DNET_FILTER_SIZE_9_BIT 9
+CAN_DNET_FILTER_SIZE_10_BIT 10
+CAN_DNET_FILTER_SIZE_11_BIT 11
+CAN_DNET_FILTER_SIZE_12_BIT 12
+CAN_DNET_FILTER_SIZE_13_BIT 13
+CAN_DNET_FILTER_SIZE_14_BIT 14
+CAN_DNET_FILTER_SIZE_15_BIT 15
+CAN_DNET_FILTER_SIZE_16_BIT 16
+CAN_DNET_FILTER_SIZE_17_BIT 17
+CAN_DNET_FILTER_SIZE_18_BIT 18
+]
+"1203
+[e E5535 . `uc
+CAN_RX_FIFO_EMPTY 0
+CAN_RX_FIFO_STATUS_MASK 15
+CAN_RX_FIFO_NOT_EMPTY 1
+CAN_RX_FIFO_HALF_FULL 2
+CAN_RX_FIFO_FULL 4
+CAN_RX_FIFO_OVERFLOW 8
+]
+"1389
+[e E5555 . `uc
+CAN_TEF_FIFO_EMPTY 0
+CAN_TEF_FIFO_STATUS_MASK 15
+CAN_TEF_FIFO_NOT_EMPTY 1
+CAN_TEF_FIFO_HALF_FULL 2
+CAN_TEF_FIFO_FULL 4
+CAN_TEF_FIFO_OVERFLOW 8
+]
+"1560
+[e E5563 . `ui
+CAN_NO_EVENT 0
+CAN_ALL_EVENTS -225
+CAN_TX_EVENT 1
+CAN_RX_EVENT 2
+CAN_TIME_BASE_COUNTER_EVENT 4
+CAN_OPERATION_MODE_CHANGE_EVENT 8
+CAN_TEF_EVENT 16
+CAN_RAM_ECC_EVENT 256
+CAN_SPI_CRC_EVENT 512
+CAN_TX_ATTEMPTS_EVENT 1024
+CAN_RX_OVERFLOW_EVENT 2048
+CAN_SYSTEM_ERROR_EVENT 4096
+CAN_BUS_ERROR_EVENT 8192
+CAN_BUS_WAKEUP_EVENT 16384
+CAN_RX_INVALID_MESSAGE_EVENT -32768
+]
+"1663
+[e E5809 . `uc
+CAN_RXCODE_FIFO_CH1 1
+CAN_RXCODE_FIFO_CH2 2
+CAN_RXCODE_FIFO_CH3 3
+CAN_RXCODE_FIFO_CH4 4
+CAN_RXCODE_FIFO_CH5 5
+CAN_RXCODE_FIFO_CH6 6
+CAN_RXCODE_FIFO_CH7 7
+CAN_RXCODE_FIFO_CH8 8
+CAN_RXCODE_FIFO_CH9 9
+CAN_RXCODE_FIFO_CH10 10
+CAN_RXCODE_FIFO_CH11 11
+CAN_RXCODE_FIFO_CH12 12
+CAN_RXCODE_FIFO_CH13 13
+CAN_RXCODE_FIFO_CH14 14
+CAN_RXCODE_FIFO_CH15 15
+CAN_RXCODE_FIFO_CH16 16
+CAN_RXCODE_FIFO_CH17 17
+CAN_RXCODE_FIFO_CH18 18
+CAN_RXCODE_FIFO_CH19 19
+CAN_RXCODE_FIFO_CH20 20
+CAN_RXCODE_FIFO_CH21 21
+CAN_RXCODE_FIFO_CH22 22
+CAN_RXCODE_FIFO_CH23 23
+CAN_RXCODE_FIFO_CH24 24
+CAN_RXCODE_FIFO_CH25 25
+CAN_RXCODE_FIFO_CH26 26
+CAN_RXCODE_FIFO_CH27 27
+CAN_RXCODE_FIFO_CH28 28
+CAN_RXCODE_FIFO_CH29 29
+CAN_RXCODE_FIFO_CH30 30
+CAN_RXCODE_FIFO_CH31 31
+CAN_RXCODE_TOTAL_CHANNELS 32
+CAN_RXCODE_NO_INT 64
+CAN_RXCODE_RESERVED 65
+]
+"1689
+[e E5845 . `uc
+CAN_TXCODE_FIFO_CH0 0
+CAN_TXCODE_FIFO_CH1 1
+CAN_TXCODE_FIFO_CH2 2
+CAN_TXCODE_FIFO_CH3 3
+CAN_TXCODE_FIFO_CH4 4
+CAN_TXCODE_FIFO_CH5 5
+CAN_TXCODE_FIFO_CH6 6
+CAN_TXCODE_FIFO_CH7 7
+CAN_TXCODE_FIFO_CH8 8
+CAN_TXCODE_FIFO_CH9 9
+CAN_TXCODE_FIFO_CH10 10
+CAN_TXCODE_FIFO_CH11 11
+CAN_TXCODE_FIFO_CH12 12
+CAN_TXCODE_FIFO_CH13 13
+CAN_TXCODE_FIFO_CH14 14
+CAN_TXCODE_FIFO_CH15 15
+CAN_TXCODE_FIFO_CH16 16
+CAN_TXCODE_FIFO_CH17 17
+CAN_TXCODE_FIFO_CH18 18
+CAN_TXCODE_FIFO_CH19 19
+CAN_TXCODE_FIFO_CH20 20
+CAN_TXCODE_FIFO_CH21 21
+CAN_TXCODE_FIFO_CH22 22
+CAN_TXCODE_FIFO_CH23 23
+CAN_TXCODE_FIFO_CH24 24
+CAN_TXCODE_FIFO_CH25 25
+CAN_TXCODE_FIFO_CH26 26
+CAN_TXCODE_FIFO_CH27 27
+CAN_TXCODE_FIFO_CH28 28
+CAN_TXCODE_FIFO_CH29 29
+CAN_TXCODE_FIFO_CH30 30
+CAN_TXCODE_FIFO_CH31 31
+CAN_TXCODE_TOTAL_CHANNELS 32
+CAN_TXCODE_NO_INT 64
+CAN_TXCODE_RESERVED 65
+]
+"1736
+[e E5762 . `uc
+CAN_ICODE_FIFO_CH0 0
+CAN_ICODE_FIFO_CH1 1
+CAN_ICODE_FIFO_CH2 2
+CAN_ICODE_FIFO_CH3 3
+CAN_ICODE_FIFO_CH4 4
+CAN_ICODE_FIFO_CH5 5
+CAN_ICODE_FIFO_CH6 6
+CAN_ICODE_FIFO_CH7 7
+CAN_ICODE_FIFO_CH8 8
+CAN_ICODE_FIFO_CH9 9
+CAN_ICODE_FIFO_CH10 10
+CAN_ICODE_FIFO_CH11 11
+CAN_ICODE_FIFO_CH12 12
+CAN_ICODE_FIFO_CH13 13
+CAN_ICODE_FIFO_CH14 14
+CAN_ICODE_FIFO_CH15 15
+CAN_ICODE_FIFO_CH16 16
+CAN_ICODE_FIFO_CH17 17
+CAN_ICODE_FIFO_CH18 18
+CAN_ICODE_FIFO_CH19 19
+CAN_ICODE_FIFO_CH20 20
+CAN_ICODE_FIFO_CH21 21
+CAN_ICODE_FIFO_CH22 22
+CAN_ICODE_FIFO_CH23 23
+CAN_ICODE_FIFO_CH24 24
+CAN_ICODE_FIFO_CH25 25
+CAN_ICODE_FIFO_CH26 26
+CAN_ICODE_FIFO_CH27 27
+CAN_ICODE_FIFO_CH28 28
+CAN_ICODE_FIFO_CH29 29
+CAN_ICODE_FIFO_CH30 30
+CAN_ICODE_FIFO_CH31 31
+CAN_ICODE_TOTAL_CHANNELS 32
+CAN_ICODE_NO_INT 64
+CAN_ICODE_CERRIF 65
+CAN_ICODE_WAKIF 66
+CAN_ICODE_RXOVIF 67
+CAN_ICODE_ADDRERR_SERRIF 68
+CAN_ICODE_MABOV_SERRIF 69
+CAN_ICODE_TBCIF 70
+CAN_ICODE_MODIF 71
+CAN_ICODE_IVMIF 72
+CAN_ICODE_TEFIF 73
+CAN_ICODE_TXATIF 74
+CAN_ICODE_RESERVED 75
+]
+"2061
+[e E5596 . `uc
+CAN_TEF_FIFO_NO_EVENT 0
+CAN_TEF_FIFO_ALL_EVENTS 15
+CAN_TEF_FIFO_NOT_EMPTY_EVENT 1
+CAN_TEF_FIFO_HALF_FULL_EVENT 2
+CAN_TEF_FIFO_FULL_EVENT 4
+CAN_TEF_FIFO_OVERFLOW_EVENT 8
+]
+"2199
+[e E5648 . `uc
+CAN_ERROR_FREE_STATE 0
+CAN_ERROR_ALL 63
+CAN_TX_RX_WARNING_STATE 1
+CAN_RX_WARNING_STATE 2
+CAN_TX_WARNING_STATE 4
+CAN_RX_BUS_PASSIVE_STATE 8
+CAN_TX_BUS_PASSIVE_STATE 16
+CAN_TX_BUS_OFF_STATE 32
+]
+"2336
+[e E5663 . `uc
+CAN_ECC_NO_EVENT 0
+CAN_ECC_ALL_EVENTS 6
+CAN_ECC_SEC_EVENT 2
+CAN_ECC_DED_EVENT 4
+]
+"2483
+[e E5669 . `uc
+CAN_CRC_NO_EVENT 0
+CAN_CRC_ALL_EVENTS 3
+CAN_CRC_CRCERR_EVENT 1
+CAN_CRC_FORMERR_EVENT 2
+]
+"2689
+[e E5658 . `uc
+CAN_TS_SOF 0
+CAN_TS_EOF 1
+CAN_TS_RES 2
+]
+"2891
+[e E5643 . `uc
+CAN_SSP_MODE_OFF 0
+CAN_SSP_MODE_MANUAL 1
+CAN_SSP_MODE_AUTO 2
+]
+"3484
+[e E5679 . `uc
+GPIO_MODE_INT 0
+GPIO_MODE_GPIO 1
+]
+"3513
+[e E5683 . `uc
+GPIO_OUTPUT 0
+GPIO_INPUT 1
+]
+"3596
+[e E5687 . `uc
+GPIO_PUSH_PULL 0
+GPIO_OPEN_DRAIN 1
+]
+"3652
+[e E5675 . `uc
+GPIO_PIN_0 0
+GPIO_PIN_1 1
+]
+[e E5691 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"3722
+[e E5695 . `uc
+GPIO_CLKO_CLOCK 0
+GPIO_CLKO_SOF 1
+]
+"72 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\mcc_generated_files/spi2.c
+[e E358 . `uc
+SPI2_DEFAULT 0
+]
+"336 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X/can/can.h
+[e E5287 . `uc
+CAN_FIFO_CH0 0
+CAN_FIFO_CH1 1
+CAN_FIFO_CH2 2
+CAN_FIFO_CH3 3
+CAN_FIFO_CH4 4
+CAN_FIFO_CH5 5
+CAN_FIFO_CH6 6
+CAN_FIFO_CH7 7
+CAN_FIFO_CH8 8
+CAN_FIFO_CH9 9
+CAN_FIFO_CH10 10
+CAN_FIFO_CH11 11
+CAN_FIFO_CH12 12
+CAN_FIFO_CH13 13
+CAN_FIFO_CH14 14
+CAN_FIFO_CH15 15
+CAN_FIFO_CH16 16
+CAN_FIFO_CH17 17
+CAN_FIFO_CH18 18
+CAN_FIFO_CH19 19
+CAN_FIFO_CH20 20
+CAN_FIFO_CH21 21
+CAN_FIFO_CH22 22
+CAN_FIFO_CH23 23
+CAN_FIFO_CH24 24
+CAN_FIFO_CH25 25
+CAN_FIFO_CH26 26
+CAN_FIFO_CH27 27
+CAN_FIFO_CH28 28
+CAN_FIFO_CH29 29
+CAN_FIFO_CH30 30
+CAN_FIFO_CH31 31
+CAN_FIFO_TOTAL_CHANNELS 32
+]
+"385
+[e E5543 . `ui
+CAN_TX_FIFO_FULL 0
+CAN_TX_FIFO_STATUS_MASK 503
+CAN_TX_FIFO_NOT_FULL 1
+CAN_TX_FIFO_HALF_FULL 2
+CAN_TX_FIFO_EMPTY 4
+CAN_TX_FIFO_ATTEMPTS_EXHAUSTED 16
+CAN_TX_FIFO_ERROR 32
+CAN_TX_FIFO_ARBITRATION_LOST 64
+CAN_TX_FIFO_ABORTED 128
+CAN_TX_FIFO_TRANSMITTING 256
+]
+"666
+[e E5580 . `uc
+CAN_TX_FIFO_NO_EVENT 0
+CAN_TX_FIFO_ALL_EVENTS 23
+CAN_TX_FIFO_NOT_FULL_EVENT 1
+CAN_TX_FIFO_HALF_FULL_EVENT 2
+CAN_TX_FIFO_EMPTY_EVENT 4
+CAN_TX_FIFO_ATTEMPTS_EXHAUSTED_EVENT 16
+]
+"80 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\main.c
+[e E6376 . `uc
+E_NULL 0
+E_INIT 1
+E_CONTACT_OFF 2
+E_CONTACT_ON 3
+E_HIGH_BRAKE 4
+]
+"336 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X/can/can.h
+[e E5454 . `uc
+CAN_FIFO_CH0 0
+CAN_FIFO_CH1 1
+CAN_FIFO_CH2 2
+CAN_FIFO_CH3 3
+CAN_FIFO_CH4 4
+CAN_FIFO_CH5 5
+CAN_FIFO_CH6 6
+CAN_FIFO_CH7 7
+CAN_FIFO_CH8 8
+CAN_FIFO_CH9 9
+CAN_FIFO_CH10 10
+CAN_FIFO_CH11 11
+CAN_FIFO_CH12 12
+CAN_FIFO_CH13 13
+CAN_FIFO_CH14 14
+CAN_FIFO_CH15 15
+CAN_FIFO_CH16 16
+CAN_FIFO_CH17 17
+CAN_FIFO_CH18 18
+CAN_FIFO_CH19 19
+CAN_FIFO_CH20 20
+CAN_FIFO_CH21 21
+CAN_FIFO_CH22 22
+CAN_FIFO_CH23 23
+CAN_FIFO_CH24 24
+CAN_FIFO_CH25 25
+CAN_FIFO_CH26 26
+CAN_FIFO_CH27 27
+CAN_FIFO_CH28 28
+CAN_FIFO_CH29 29
+CAN_FIFO_CH30 30
+CAN_FIFO_CH31 31
+CAN_FIFO_TOTAL_CHANNELS 32
+]
+"385
+[e E5710 . `ui
+CAN_TX_FIFO_FULL 0
+CAN_TX_FIFO_STATUS_MASK 503
+CAN_TX_FIFO_NOT_FULL 1
+CAN_TX_FIFO_HALF_FULL 2
+CAN_TX_FIFO_EMPTY 4
+CAN_TX_FIFO_ATTEMPTS_EXHAUSTED 16
+CAN_TX_FIFO_ERROR 32
+CAN_TX_FIFO_ARBITRATION_LOST 64
+CAN_TX_FIFO_ABORTED 128
+CAN_TX_FIFO_TRANSMITTING 256
+]
+"666
+[e E5747 . `uc
+CAN_TX_FIFO_NO_EVENT 0
+CAN_TX_FIFO_ALL_EVENTS 23
+CAN_TX_FIFO_NOT_FULL_EVENT 1
+CAN_TX_FIFO_HALF_FULL_EVENT 2
+CAN_TX_FIFO_EMPTY_EVENT 4
+CAN_TX_FIFO_ATTEMPTS_EXHAUSTED_EVENT 16
+]
+"43 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\carFunctions.c
+[e E6631 . `uc
+INIT 0
+OFF 1
+CRUISE 2
+BRAKE 3
+]
+"48
+[e E6535 . `uc
+E_NULL 0
+E_INIT 1
+E_CONTACT_OFF 2
+E_CONTACT_ON 3
+E_HIGH_BRAKE 4
+]
+"7 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `R(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `R(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `R(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `R(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `R(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `R(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `R(f  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\printf.c
+[v _printf printf `R(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `R(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `R(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `R(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `R(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `R(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `R(uo  1 e 8 0 ]
+"132 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\can/can.c
+[v _SpiTransfer SpiTransfer `R(c  1 s 1 SpiTransfer ]
+"249
+[v _DRV_CANFDSPI_Reset DRV_CANFDSPI_Reset `R(c  1 e 1 0 ]
+"268
+[v _DRV_CANFDSPI_ReadByte DRV_CANFDSPI_ReadByte `R(c  1 e 1 0 ]
+"286
+[v _DRV_CANFDSPI_WriteByte DRV_CANFDSPI_WriteByte `R(c  1 e 1 0 ]
+"302
+[v _DRV_CANFDSPI_WriteWord DRV_CANFDSPI_WriteWord `R(c  1 e 1 0 ]
+"324
+[v _DRV_CANFDSPI_WriteHalfWord DRV_CANFDSPI_WriteHalfWord `R(c  1 e 1 0 ]
+"348
+[v _DRV_CANFDSPI_ReadByteArray DRV_CANFDSPI_ReadByteArray `R(c  1 e 1 0 ]
+"375
+[v _DRV_CANFDSPI_WriteByteArray DRV_CANFDSPI_WriteByteArray `R(c  1 e 1 0 ]
+"397
+[v _DRV_CANFDSPI_ReadWordArray DRV_CANFDSPI_ReadWordArray `R(c  1 e 1 0 ]
+"438
+[v _DRV_CANFDSPI_Configure DRV_CANFDSPI_Configure `R(c  1 e 1 0 ]
+"466
+[v _DRV_CANFDSPI_ConfigureObjectReset DRV_CANFDSPI_ConfigureObjectReset `R(c  1 e 1 0 ]
+"491
+[v _DRV_CANFDSPI_OperationModeSelect DRV_CANFDSPI_OperationModeSelect `R(c  1 e 1 0 ]
+"625
+[v _DRV_CANFDSPI_TransmitChannelConfigure DRV_CANFDSPI_TransmitChannelConfigure `R(c  1 e 1 0 ]
+"649
+[v _DRV_CANFDSPI_TransmitChannelConfigureObjectReset DRV_CANFDSPI_TransmitChannelConfigureObjectReset `R(c  1 e 1 0 ]
+"663
+[v _DRV_CANFDSPI_TransmitQueueConfigure DRV_CANFDSPI_TransmitQueueConfigure `R(c  1 e 1 0 ]
+"685
+[v _DRV_CANFDSPI_TransmitQueueConfigureObjectReset DRV_CANFDSPI_TransmitQueueConfigureObjectReset `R(c  1 e 1 0 ]
+"698
+[v _DRV_CANFDSPI_TransmitChannelLoad DRV_CANFDSPI_TransmitChannelLoad `R(c  1 e 1 0 ]
+"812
+[v _DRV_CANFDSPI_TransmitChannelFlush DRV_CANFDSPI_TransmitChannelFlush `R(c  1 e 1 0 ]
+"832
+[v _DRV_CANFDSPI_TransmitChannelStatusGet DRV_CANFDSPI_TransmitChannelStatusGet `R(c  1 e 1 0 ]
+"866
+[v _DRV_CANFDSPI_TransmitChannelReset DRV_CANFDSPI_TransmitChannelReset `R(c  1 e 1 0 ]
+"872
+[v _DRV_CANFDSPI_TransmitChannelUpdate DRV_CANFDSPI_TransmitChannelUpdate `R(c  1 e 1 0 ]
+"920
+[v _DRV_CANFDSPI_TransmitChannelAbort DRV_CANFDSPI_TransmitChannelAbort `R(c  1 e 1 0 ]
+"993
+[v _DRV_CANFDSPI_FilterObjectConfigure DRV_CANFDSPI_FilterObjectConfigure `R(c  1 e 1 0 ]
+"1027
+[v _DRV_CANFDSPI_FilterMaskConfigure DRV_CANFDSPI_FilterMaskConfigure `R(c  1 e 1 0 ]
+"1064
+[v _DRV_CANFDSPI_FilterToFifoLink DRV_CANFDSPI_FilterToFifoLink `R(c  1 e 1 0 ]
+"1113
+[v _DRV_CANFDSPI_FilterDisable DRV_CANFDSPI_FilterDisable `R(c  1 e 1 0 ]
+"1164
+[v _DRV_CANFDSPI_ReceiveChannelConfigure DRV_CANFDSPI_ReceiveChannelConfigure `R(c  1 e 1 0 ]
+"1225
+[v _DRV_CANFDSPI_ReceiveMessageGet DRV_CANFDSPI_ReceiveMessageGet `R(c  1 e 1 0 ]
+"1350
+[v _DRV_CANFDSPI_ReceiveChannelReset DRV_CANFDSPI_ReceiveChannelReset `R(c  1 e 1 0 ]
+"1367
+[v _DRV_CANFDSPI_ReceiveChannelUpdate DRV_CANFDSPI_ReceiveChannelUpdate `R(c  1 e 1 0 ]
+"1511
+[v _DRV_CANFDSPI_TefUpdate DRV_CANFDSPI_TefUpdate `R(c  1 e 1 0 ]
+"1528
+[v _DRV_CANFDSPI_TefConfigure DRV_CANFDSPI_TefConfigure `R(c  1 e 1 0 ]
+"1765
+[v _DRV_CANFDSPI_TransmitChannelEventGet DRV_CANFDSPI_TransmitChannelEventGet `R(c  1 e 1 0 ]
+"1806
+[v _DRV_CANFDSPI_TransmitChannelIndexGet DRV_CANFDSPI_TransmitChannelIndexGet `R(c  1 e 1 0 ]
+"1828
+[v _DRV_CANFDSPI_TransmitChannelEventEnable DRV_CANFDSPI_TransmitChannelEventEnable `R(c  1 e 1 0 ]
+"1856
+[v _DRV_CANFDSPI_TransmitChannelEventDisable DRV_CANFDSPI_TransmitChannelEventDisable `R(c  1 e 1 0 ]
+"1884
+[v _DRV_CANFDSPI_TransmitChannelEventAttemptClear DRV_CANFDSPI_TransmitChannelEventAttemptClear `R(c  1 e 1 0 ]
+"1917
+[v _DRV_CANFDSPI_ReceiveChannelEventGet DRV_CANFDSPI_ReceiveChannelEventGet `R(c  1 e 1 0 ]
+"2623
+[v _DRV_CANFDSPI_TimeStampEnable DRV_CANFDSPI_TimeStampEnable `R(c  1 e 1 0 ]
+"2679
+[v _DRV_CANFDSPI_TimeStampSet DRV_CANFDSPI_TimeStampSet `R(c  1 e 1 0 ]
+"2714
+[v _DRV_CANFDSPI_TimeStampPrescalerSet DRV_CANFDSPI_TimeStampPrescalerSet `R(c  1 e 1 0 ]
+"2814
+[v _DRV_CANFDSPI_BitTimeConfigureNominal40MHz DRV_CANFDSPI_BitTimeConfigureNominal40MHz `R(c  1 e 1 0 ]
+"3755
+[v _DRV_CANFDSPI_DlcToDataBytes DRV_CANFDSPI_DlcToDataBytes `R(ul  1 e 4 0 ]
+"24 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\carFunctions.c
+[v _lightContol_FrontLight lightContol_FrontLight `R(v  1 e 1 0 ]
+"29
+[v _lightContol_BackLight lightContol_BackLight `R(v  1 e 1 0 ]
+"34
+[v _lightControl_Process lightControl_Process `R(a  1 e 1 0 ]
+"96
+[v _updateCarState updateCarState `R(v  1 e 1 0 ]
+"43 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\lcd/lcd.c
+[v _LCD_2x16_WriteCmd LCD_2x16_WriteCmd `R(v  1 s 1 LCD_2x16_WriteCmd ]
+"57
+[v _LCD_2x16_WriteData LCD_2x16_WriteData `R(v  1 s 1 LCD_2x16_WriteData ]
+"82
+[v _LCD_Clear LCD_Clear `R(v  1 e 1 0 ]
+"101
+[v _putch putch `R(v  1 e 1 0 ]
+"56 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\main.c
+[v _main main `R(v  1 e 1 0 ]
+"52 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `R(v  1 e 1 0 ]
+"58
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"50 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `R(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `R(v  1 e 1 0 ]
+"50 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `R(v  1 e 1 0 ]
+"62 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\mcc_generated_files/spi2.c
+[v _SPI2_Initialize SPI2_Initialize `R(v  1 e 1 0 ]
+"72
+[v _SPI2_Open SPI2_Open `R(a  1 e 1 0 ]
+"92
+[v _SPI2_ExchangeByte SPI2_ExchangeByte `R(uc  1 e 1 0 ]
+"67 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `R(v  1 e 1 0 ]
+"136
+[v _TMR0_ISR TMR0_ISR `R(v  1 e 1 0 ]
+"162
+[v _TMR0_CallBack TMR0_CallBack `R(v  1 e 1 0 ]
+"172
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `R(v  1 e 1 0 ]
+"176
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `R(v  1 e 1 0 ]
+"4 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\xf/event.c
+[v _Event_init Event_init `R(v  1 e 1 0 ]
+"12
+[v _Event_setPE Event_setPE `R(v  1 e 1 0 ]
+"22
+[v _Event_setId Event_setId `R(v  1 e 1 0 ]
+"32
+[v _Event_setDelay Event_setDelay `R(v  1 e 1 0 ]
+"37
+[v _Event_getDelay Event_getDelay `R(us  1 e 2 0 ]
+"73 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\xf/xf.c
+[v _XF_init XF_init `R(v  1 e 1 0 ]
+"97
+[v _XF_pushEvent XF_pushEvent `R(a  1 e 1 0 ]
+"139 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X
+[s S4916 Event_ 6 `uc 1 id 1 0 `*.38R(a 1 processEvent 3 1 `us 1 delay 2 4 ]
+"130 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\xf/xf.c
+[v _XF_popEvent XF_popEvent `R(S4916  1 e 6 0 ]
+"156
+[v _XF_scheduleTimer XF_scheduleTimer `R(uc  1 e 1 0 ]
+"185
+[v _XF_unscheduleTimer XF_unscheduleTimer `R(v  1 e 1 0 ]
+"199
+[v _XF_decrementAndQueueTimers XF_decrementAndQueueTimers `R(v  1 e 1 0 ]
+"232
+[v _ENTERCRITICAL ENTERCRITICAL `R(v  1 s 1 ENTERCRITICAL ]
+"247
+[v _LEAVECRITICAL LEAVECRITICAL `R(v  1 s 1 LEAVECRITICAL ]
+"256
+[v _XF_post XF_post `R(uc  1 e 1 0 ]
+"272
+[v _XF_executeOnce XF_executeOnce `R(v  1 e 1 0 ]
+"1193 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-J_DFP/1.6.157/xc8\pic\include\proc\pic18f97j60.h
+[v _SSP2CON2 SSP2CON2 `VEuc  1 e 1 @3938 ]
+"1380
+[v _SSP2CON1 SSP2CON1 `VEuc  1 e 1 @3939 ]
+[s S4794 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"1410
+[s S4800 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S4805 . 1 `uc 1 SSPM02 1 0 :1:0 
+`uc 1 SSPM12 1 0 :1:1 
+`uc 1 SSPM22 1 0 :1:2 
+`uc 1 SSPM32 1 0 :1:3 
+`uc 1 CKP2 1 0 :1:4 
+`uc 1 SSPEN2 1 0 :1:5 
+`uc 1 SSPOV2 1 0 :1:6 
+`uc 1 WCOL2 1 0 :1:7 
+]
+[u S4814 . 1 `S4794 1 . 1 0 `S4800 1 . 1 0 `S4805 1 . 1 0 ]
+[v _SSP2CON1bits SSP2CON1bits `VES4814  1 e 1 @3939 ]
+"1500
+[v _SSP2STAT SSP2STAT `VEuc  1 e 1 @3940 ]
+[s S203 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"1642
+[s S206 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S209 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S218 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S223 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S229 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S234 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S237 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S240 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S245 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S250 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S255 . 1 `uc 1 BF2 1 0 :1:0 
+`uc 1 UA2 1 0 :1:1 
+`uc 1 RW2 1 0 :1:2 
+`uc 1 START2 1 0 :1:3 
+`uc 1 STOP2 1 0 :1:4 
+`uc 1 DA2 1 0 :1:5 
+`uc 1 CKE2 1 0 :1:6 
+`uc 1 SMP2 1 0 :1:7 
+]
+[s S264 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ2 1 0 :1:2 
+`uc 1 I2C_START2 1 0 :1:3 
+`uc 1 I2C_STOP2 1 0 :1:4 
+`uc 1 DATA_ADDRESS2 1 0 :1:5 
+]
+[s S270 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE2 1 0 :1:2 
+`uc 1 S2 1 0 :1:3 
+`uc 1 P2 1 0 :1:4 
+`uc 1 D_A2 1 0 :1:5 
+]
+[s S276 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A2 1 0 :1:5 
+]
+[s S279 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_nA2 1 0 :1:5 
+]
+[s S284 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W2 1 0 :1:2 
+]
+[s S287 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT2 1 0 :1:5 
+]
+[s S292 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W2 1 0 :1:2 
+]
+[s S295 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A2 1 0 :1:5 
+]
+[s S298 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA2 1 0 :1:5 
+]
+[s S303 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE2 1 0 :1:2 
+]
+[s S306 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS2 1 0 :1:5 
+]
+[s S309 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS2 1 0 :1:5 
+]
+[u S314 . 1 `S203 1 . 1 0 `S206 1 . 1 0 `S209 1 . 1 0 `S218 1 . 1 0 `S223 1 . 1 0 `S229 1 . 1 0 `S234 1 . 1 0 `S237 1 . 1 0 `S240 1 . 1 0 `S245 1 . 1 0 `S250 1 . 1 0 `S255 1 . 1 0 `S264 1 . 1 0 `S270 1 . 1 0 `S276 1 . 1 0 `S279 1 . 1 0 `S284 1 . 1 0 `S287 1 . 1 0 `S292 1 . 1 0 `S295 1 . 1 0 `S298 1 . 1 0 `S303 1 . 1 0 `S306 1 . 1 0 `S309 1 . 1 0 ]
+[v _SSP2STATbits SSP2STATbits `VES314  1 e 1 @3940 ]
+"1927
+[v _SSP2ADD SSP2ADD `VEuc  1 e 1 @3941 ]
+"1989
+[v _SSP2BUF SSP2BUF `VEuc  1 e 1 @3942 ]
+"5785
+[v _PORTJ PORTJ `VEuc  1 e 1 @3976 ]
+"5991
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"6112
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"6224
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"6336
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S4278 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"6363
+[s S4287 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S4296 . 1 `S4278 1 . 1 0 `S4287 1 . 1 0 ]
+[v _LATDbits LATDbits `VES4296  1 e 1 @3980 ]
+"6448
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"6560
+[v _LATF LATF `VEuc  1 e 1 @3982 ]
+"6672
+[v _LATG LATG `VEuc  1 e 1 @3983 ]
+[s S169 . 1 `uc 1 LATG0 1 0 :1:0 
+`uc 1 LATG1 1 0 :1:1 
+`uc 1 LATG2 1 0 :1:2 
+`uc 1 LATG3 1 0 :1:3 
+`uc 1 LATG4 1 0 :1:4 
+`uc 1 LATG5 1 0 :1:5 
+`uc 1 LATG6 1 0 :1:6 
+`uc 1 LATG7 1 0 :1:7 
+]
+"6696
+[s S178 . 1 `uc 1 LG0 1 0 :1:0 
+`uc 1 LG1 1 0 :1:1 
+`uc 1 LG2 1 0 :1:2 
+`uc 1 LG3 1 0 :1:3 
+`uc 1 LG4 1 0 :1:4 
+]
+[u S184 . 1 `S169 1 . 1 0 `S178 1 . 1 0 ]
+[v _LATGbits LATGbits `VES184  1 e 1 @3983 ]
+"6766
+[v _LATH LATH `VEuc  1 e 1 @3984 ]
+"6878
+[v _LATJ LATJ `VEuc  1 e 1 @3985 ]
+"6990
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"7164
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"7386
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"7608
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S4238 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"7640
+[s S4247 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+[u S4256 . 1 `S4238 1 . 1 0 `S4247 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES4256  1 e 1 @3989 ]
+"7830
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"8052
+[v _TRISF TRISF `VEuc  1 e 1 @3991 ]
+"8274
+[v _TRISG TRISG `VEuc  1 e 1 @3992 ]
+[s S471 . 1 `uc 1 TRISG0 1 0 :1:0 
+`uc 1 TRISG1 1 0 :1:1 
+`uc 1 TRISG2 1 0 :1:2 
+`uc 1 TRISG3 1 0 :1:3 
+`uc 1 TRISG4 1 0 :1:4 
+`uc 1 TRISG5 1 0 :1:5 
+`uc 1 TRISG6 1 0 :1:6 
+`uc 1 TRISG7 1 0 :1:7 
+]
+"8306
+[s S480 . 1 `uc 1 RG0 1 0 :1:0 
+`uc 1 RG1 1 0 :1:1 
+`uc 1 RG2 1 0 :1:2 
+`uc 1 RG3 1 0 :1:3 
+`uc 1 RG4 1 0 :1:4 
+`uc 1 RG5 1 0 :1:5 
+`uc 1 RG6 1 0 :1:6 
+`uc 1 RG7 1 0 :1:7 
+]
+[u S489 . 1 `S471 1 . 1 0 `S480 1 . 1 0 ]
+[v _TRISGbits TRISGbits `VES489  1 e 1 @3992 ]
+"8496
+[v _TRISH TRISH `VEuc  1 e 1 @3993 ]
+"8718
+[v _TRISJ TRISJ `VEuc  1 e 1 @3994 ]
+"8940
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S4843 . 1 `uc 1 CCP3IF 1 0 :1:0 
+`uc 1 CCP4IF 1 0 :1:1 
+`uc 1 CCP5IF 1 0 :1:2 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 TX2IF 1 0 :1:4 
+`uc 1 RC2IF 1 0 :1:5 
+`uc 1 BCL2IF 1 0 :1:6 
+`uc 1 SSP2IF 1 0 :1:7 
+]
+"9623
+[s S4852 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S4857 . 1 `S4843 1 . 1 0 `S4852 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES4857  1 e 1 @4004 ]
+[s S4423 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"11667
+[s S4426 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S4433 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S4438 . 1 `S4423 1 . 1 0 `S4426 1 . 1 0 `S4433 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES4438  1 e 1 @4033 ]
+[s S4462 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"13582
+[s S4464 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S4467 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S4470 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S4473 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S4476 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_CM 1 0 :1:5 
+]
+[s S4479 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 nCM 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S4488 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 CM 1 0 :1:5 
+]
+[u S4495 . 1 `S4462 1 . 1 0 `S4464 1 . 1 0 `S4467 1 . 1 0 `S4470 1 . 1 0 `S4473 1 . 1 0 `S4476 1 . 1 0 `S4479 1 . 1 0 `S4488 1 . 1 0 ]
+[v _RCONbits RCONbits `VES4495  1 e 1 @4048 ]
+"13761
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"13809
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+[s S4614 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"13829
+[s S4621 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S4625 . 1 `S4614 1 . 1 0 `S4621 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES4625  1 e 1 @4053 ]
+"13886
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"13893
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S4538 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"14384
+[s S4547 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S4556 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S4560 . 1 `S4538 1 . 1 0 `S4547 1 . 1 0 `S4556 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES4560  1 e 1 @4082 ]
+"50 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\main.c
+[v _dummy dummy `VEul  1 e 4 0 ]
+[s S4680 . 27 `uc 1 tempoOn 1 0 `uc 1 tempoSpeed 1 1 `uc 1 gearSel 1 2 `us 1 frontSensor 2 3 `uc 1 extSensorL 1 5 `uc 1 extSensorR 1 6 `us 1 rpm 2 7 `s 1 speed 2 9 `uc 1 statReceived 1 11 `uc 1 brakePedal 1 12 `uc 1 accelPedal 1 13 `uc 1 contactKey 1 14 `uc 1 steeringWheel 1 15 `uc 1 brokenMsg 1 16 `uc 1 badMsg 1 17 `uc 1 slope 1 18 `uc 1 race 1 19 `uc 1 rev 1 20 `uc 1 secondElapsed 1 21 `uc 1 ms20Elapsed 1 22 `us 1 speedAgregate 2 23 `uc 1 gearLevel 1 25 `uc 1 starterNeeded 1 26 ]
+"52
+[v _carState carState `S4680  1 e 27 0 ]
+"58 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\mcc_generated_files/tmr0.c
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.38R(v  1 e 3 0 ]
+"60
+[v _timer0ReloadVal timer0ReloadVal `VEus  1 e 2 0 ]
+[s S4916 Event_ 6 `uc 1 id 1 0 `*.38R(a 1 processEvent 3 1 `us 1 delay 2 4 ]
+"63 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\xf/xf.c
+[s S4986 Timer_ 8 `us 1 tm 2 0 `S4916 1 ev 6 2 ]
+[s S4989 XF 278 `[12]S4986 1 timerList 96 0 `[30]S4916 1 eventQueue 180 96 `uc 1 in 1 276 `uc 1 out 1 277 ]
+[v _theXF theXF `S4989  1 e 278 0 ]
+"56 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\main.c
+[v _main main `R(v  1 e 1 0 ]
+{
+"86
+} 0
+"96 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\carFunctions.c
+[v _updateCarState updateCarState `R(v  1 e 1 0 ]
+{
+"100
+} 0
+"256 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\xf/xf.c
+[v _XF_post XF_post `R(uc  1 e 1 0 ]
+{
+[s S4916 Event_ 6 `uc 1 id 1 0 `*.38R(a 1 processEvent 3 1 `us 1 delay 2 4 ]
+"261
+[v _ev ev `S4916  1 a 6 0 ]
+"258
+[v _tmid tmid `uc  1 a 1 6 ]
+"256
+[v _processEvent processEvent `*.38R(a  1 p 3 -3 ]
+[v _id id `uc  1 p 1 -4 ]
+[v _delay delay `us  1 p 2 -6 ]
+"270
+} 7
+"97
+[v _XF_pushEvent XF_pushEvent `R(a  1 e 1 0 ]
+{
+"100
+[v _tm tm `us  1 a 2 0 ]
+"99
+[v _temp temp `uc  1 a 1 2 ]
+[s S4916 Event_ 6 `uc 1 id 1 0 `*.38R(a 1 processEvent 3 1 `us 1 delay 2 4 ]
+"97
+[v _ev ev `S4916  1 p 6 -6 ]
+[v _inISR inISR `a  1 p 1 -7 ]
+[v _tmid tmid `*.39uc  1 p 2 -9 ]
+"122
+} 3
+"156
+[v _XF_scheduleTimer XF_scheduleTimer `R(uc  1 e 1 0 ]
+{
+"158
+[v _i i `uc  1 a 1 0 ]
+"156
+[v _tm tm `us  1 p 2 -2 ]
+[s S4916 Event_ 6 `uc 1 id 1 0 `*.38R(a 1 processEvent 3 1 `us 1 delay 2 4 ]
+[v _ev ev `S4916  1 p 6 -8 ]
+[v _inISR inISR `a  1 p 1 -9 ]
+"176
+} 1
+"32 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\xf/event.c
+[v _Event_setDelay Event_setDelay `R(v  1 e 1 0 ]
+{
+[s S4916 Event_ 6 `uc 1 id 1 0 `*.38R(a 1 processEvent 3 1 `us 1 delay 2 4 ]
+[v _me me `*.39S4916  1 p 2 -2 ]
+[v _delay delay `us  1 p 2 -4 ]
+"35
+} 0
+"37
+[v _Event_getDelay Event_getDelay `R(us  1 e 2 0 ]
+{
+[s S4916 Event_ 6 `uc 1 id 1 0 `*.38R(a 1 processEvent 3 1 `us 1 delay 2 4 ]
+[v _me me `*.39S4916  1 p 2 -2 ]
+"40
+} 0
+"12
+[v _Event_setPE Event_setPE `R(v  1 e 1 0 ]
+{
+[s S4916 Event_ 6 `uc 1 id 1 0 `*.38R(a 1 processEvent 3 1 `us 1 delay 2 4 ]
+[v _me me `*.39S4916  1 p 2 -2 ]
+[v _processEvent processEvent `*.38R(a  1 p 3 -5 ]
+"15
+} 0
+"22
+[v _Event_setId Event_setId `R(v  1 e 1 0 ]
+{
+[s S4916 Event_ 6 `uc 1 id 1 0 `*.38R(a 1 processEvent 3 1 `us 1 delay 2 4 ]
+[v _me me `*.39S4916  1 p 2 -2 ]
+[v _eventID eventID `uc  1 p 1 -3 ]
+"25
+} 0
+"73 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\xf/xf.c
+[v _XF_init XF_init `R(v  1 e 1 0 ]
+{
+"75
+[v _i i `i  1 a 2 0 ]
+"88
+} 2
+"4 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\xf/event.c
+[v _Event_init Event_init `R(v  1 e 1 0 ]
+{
+[s S4916 Event_ 6 `uc 1 id 1 0 `*.38R(a 1 processEvent 3 1 `us 1 delay 2 4 ]
+[v _me me `*.39S4916  1 p 2 -2 ]
+"9
+} 0
+"272 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\xf/xf.c
+[v _XF_executeOnce XF_executeOnce `R(v  1 e 1 0 ]
+{
+[s S4916 Event_ 6 `uc 1 id 1 0 `*.38R(a 1 processEvent 3 1 `us 1 delay 2 4 ]
+"274
+[v _ev ev `S4916  1 a 6 0 ]
+"282
+} 6
+"34 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\carFunctions.c
+[v _lightControl_Process lightControl_Process `R(a  1 e 1 0 ]
+{
+[s S4916 Event_ 6 `uc 1 id 1 0 `*.38R(a 1 processEvent 3 1 `us 1 delay 2 4 ]
+[v _ev ev `*.39S4916  1 p 2 -2 ]
+"43
+[v lightControl_Process@state state `E6631  1 s 1 state ]
+"44
+[v lightControl_Process@oldState oldState `E6631  1 s 1 oldState ]
+"94
+} 0
+"24
+[v _lightContol_FrontLight lightContol_FrontLight `R(v  1 e 1 0 ]
+{
+"28
+} 0
+"29
+[v _lightContol_BackLight lightContol_BackLight `R(v  1 e 1 0 ]
+{
+"32
+} 0
+"139 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X
+[s S4916 Event_ 6 `uc 1 id 1 0 `*.38R(a 1 processEvent 3 1 `us 1 delay 2 4 ]
+"130 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\xf/xf.c
+[v _XF_popEvent XF_popEvent `R(S4916  1 e 6 0 ]
+{
+"132
+[v _ev ev `S4916  1 a 6 0 ]
+"130
+[v _inISR inISR `a  1 p 1 -6 ]
+"146
+} 6
+"7 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `R(i  1 e 2 0 ]
+{
+"10
+[v _sign sign `uc  1 a 1 0 ]
+[v _counter counter `uc  1 a 1 1 ]
+"7
+[v _dividend dividend `i  1 p 2 -2 ]
+[v _divisor divisor `i  1 p 2 -4 ]
+"34
+} 2
+"247 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\xf/xf.c
+[v _LEAVECRITICAL LEAVECRITICAL `R(v  1 s 1 LEAVECRITICAL ]
+{
+[v _inISR inISR `a  1 p 1 -1 ]
+"254
+} 0
+"232
+[v _ENTERCRITICAL ENTERCRITICAL `R(v  1 s 1 ENTERCRITICAL ]
+{
+[v _inISR inISR `a  1 p 1 -1 ]
+"239
+} 0
+"50 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `R(v  1 e 1 0 ]
+{
+"58
+} 0
+"67 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `R(v  1 e 1 0 ]
+{
+"95
+} 0
+"172
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `R(v  1 e 1 0 ]
+{
+[v _InterruptHandler InterruptHandler `*.38R(v  1 p 3 -3 ]
+"174
+} 0
+"62 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\mcc_generated_files/spi2.c
+[v _SPI2_Initialize SPI2_Initialize `R(v  1 e 1 0 ]
+{
+"70
+} 0
+"50 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `R(v  1 e 1 0 ]
+{
+"88
+} 0
+"60 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `R(v  1 e 1 0 ]
+{
+"66
+} 0
+"52 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `R(v  1 e 1 0 ]
+{
+"56
+} 0
+"58
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"69
+} 0
+"136 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `R(v  1 e 1 0 ]
+{
+"138
+[v TMR0_ISR@CountCallBack CountCallBack `VEus  1 s 2 CountCallBack ]
+"160
+} 0
+"162
+[v _TMR0_CallBack TMR0_CallBack `R(v  1 e 1 0 ]
+{
+"170
+} 0
+"176
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `R(v  1 e 1 0 ]
+{
+"179
+} 0
+"199 C:\Users\pascal.sartoret\Desktop\can_car_with_xf_students.X\xf/xf.c
+[v _XF_decrementAndQueueTimers XF_decrementAndQueueTimers `R(v  1 e 1 0 ]
+{
+"209
+[v _dummy dummy `uc  1 a 1 0 ]
+"201
+[v _i i `uc  1 a 1 1 ]
+"224
+} 2
+"185
+[v _XF_unscheduleTimer XF_unscheduleTimer `R(v  1 e 1 0 ]
+{
+[v _id id `uc  1 p 1 -1 ]
+[v _inISR inISR `a  1 p 1 -2 ]
+"191
+} 0
